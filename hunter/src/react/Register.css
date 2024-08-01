@@ -1,0 +1,82 @@
+/* src/react/Register.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.register-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.register-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register-input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.register-button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #5151E5;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-button:hover {
+    background: #72EDF2;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.register-link {
+    color: #5151E5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
